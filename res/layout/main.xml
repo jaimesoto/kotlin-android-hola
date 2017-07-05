@@ -4,16 +4,24 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="#FFFFFF"
-    >
+              android:weightSum="1">
 <ImageView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/hello" android:contentDescription="I'm running Kotlin!"/>
+        android:src="@drawable/hello" android:contentDescription="Usando Kotlin!"/>
     <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:text="Kotlin M2 Candidate"
             />
+    <ImageView
+            android:src="@drawable/innova"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/imageView2"/>
+    <ImageView
+            android:src="@drawable/steps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/imageView3" android:layout_weight="0.34"/>
 </LinearLayout>
 
